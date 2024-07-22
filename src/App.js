@@ -11,7 +11,6 @@ function App() {
     <Router basename="/todolist">
       <main className="text-white bg-gray-950">
       <Navbar/>
-      <Home/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
