@@ -10,17 +10,17 @@ export default function Navbar() {
                 <img className="h-[160px]" src={logo} alt="Logo"/>
             </a>
             <ul className='topbar h-full flex items-center gap-16'>
-                <Link to='todolist/' className={`headings flex items-center `}>
+                <Link to='/' className={`headings flex items-center `}>
                     <li className='h-3/5 px-5 py-3 rounded flex items-center transition-all duration-300 hover:bg-gradient-to-b from-green-400 to-blue-400 hover:underline cursor-pointer'>
                         <b>Home</b>
                     </li>
                 </Link>
-                <Link to='todolist/about' className={`headings flex items-center `}>
+                <Link to='/about' className={`headings flex items-center `}>
                     <li className='h-3/5 px-5 py-3 flex items-center rounded transition-all duration-300 hover:bg-gradient-to-b from-green-400 to-blue-400 hover:underline cursor-pointer'>
                         <b>About</b>
                     </li>
                 </Link>
-                <Link to='todolist/contact' className={`headings flex items-center `}>
+                <Link to='/contact' className={`headings flex items-center `}>
                     <li className='h-3/5 px-5 py-3 flex items-center rounded transition-all duration-300 hover:bg-gradient-to-b from-green-400 to-blue-400 hover:underline cursor-pointer'>
                         <b>Contact</b>
                     </li>
