@@ -1,0 +1,8 @@
+.bck{
+    min-height: (100vh - 96px);
+}
+@media(max-width:1160px){
+    .bck{
+        flex-direction: column;
+    }
+}

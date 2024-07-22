@@ -1,0 +1,24 @@
+.bck{
+    height: calc(100vh - 96px);
+}
+@media(max-width:1160px){
+    .fst{
+        flex-direction: column;
+    }
+}
+@media(max-width:900px){
+    .snd{
+        flex-direction: column;
+    }
+    .taskc , .descc{
+        width: 60%;
+        margin-left:auto ;
+        margin-right: 0;
+    }
+}
+.srll::-webkit-scrollbar{
+    display: none;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,13 @@
+@media(min-width:800px){
+    .menuu{
+        display: none;
+    }
+}
+@media(max-width:800px){
+    .menuu{
+        display: flex;
+    }
+    .headings{
+        display: none;
+    }
+}
